@@ -1,4 +1,5 @@
-package src.main.scala
+
+package com.coffemon.TeaDB.core
 
 object HashHandler {
 

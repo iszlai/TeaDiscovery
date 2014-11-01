@@ -1,5 +1,8 @@
-package src.main.scala
+package com.coffemon.TeaDB.core
+
 import java.io.File
+
+import scala.io.Source
 
 object Persister {
 
@@ -9,6 +12,11 @@ object Persister {
     directory.mkdirs();
     val pw = new java.io.PrintWriter(file)
     try pw.write(dto.value) finally pw.close()
+  }
+
+  def load(dto: DTO): String = {
+    val myString = Source.fromFile(dto.path).mkString
+    return myString;
   }
 
 }
