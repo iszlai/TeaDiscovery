@@ -1,7 +1,7 @@
 TeaDiscovery
 ============
 Learning project of mine with the goals
-I'd love pull request if you see anything odd/needs refactoring I'm pretty much self taught so any help appriciated
+I'd love pull request if you see anything odd/needs refactoring I'm pretty much self taught so any help appreciated
 
  *  build a key value store database 
  *  auto instance discovery on lan network with no configuration
@@ -27,5 +27,5 @@ object Main extends App {
 ```
 
 ### Used resources
- *  Jackson for serialiazation/deserialization
+ *  Jackson for serialization/deserialization
  *  UDP broadcast based discovery library for intelligent no config server instance discovery/communication
