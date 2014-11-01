@@ -1,6 +1,7 @@
 TeaDiscovery
 ============
 Learning project of mine with the goals
+I'd love pull request if you see anything odd/needs refactoring I'm pretty much self taught so any help appriciated
 
  *  build a key value store database 
  *  auto instance discovery on lan network with no configuration
