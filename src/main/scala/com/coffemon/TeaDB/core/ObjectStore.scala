@@ -9,7 +9,7 @@ object ObjectStore {
 
   }
 
-  def pop[T](key: String, resType: Class[T]): T = {
+  def get[T](key: String, resType: Class[T]): T = {
     val dto = new DTO(key);
     val json = Persister.load(dto);
     return JsonTransformer.deserialize(json, resType);
